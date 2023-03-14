@@ -1,0 +1,23 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: limegreen;
+    font-weight: bold;
+  }
+  
+  .table tr:hover {
+    background-color: limegreen;
+  }
+  h1{
+      text-align: center;
+  }
+  

@@ -1,0 +1,23 @@
+= Compte rendu Geoworld
+Antoine BALCEROWIAK
+
+== Sommaire :
+
+-Partie 1 : Elèves : Consulter les informations
+
+-Partie 2 : Enseignant : Mettre à jour les données
+
+Partie 3 : Admin : Gérer les roles des utilisateurs
+
+
+Avant de commencer le compte rendu voici le code sql afin d'intégrer ma base de données utilisateurs
+
+[source,sql]
+----
+INSERT INTO `utilisateur` (`id`, `nom`, `prenom`, `login`, `password`, `role`) VALUES
+(1, 'balcerowiak', 'Antoine', 'abalce', 'sio', 'admin'),
+(4, 'kyks', 'mbappe', 'mbapp', 'sio', 'prof'),
+(5, 'messi', 'lionel', 'messi', 'sio', 'eleve'),
+(6, 'bon', 'jean', 'jeanbon', 'mdp', 'eleve');
+----
+
