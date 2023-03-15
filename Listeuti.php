@@ -18,6 +18,7 @@
  else
  header ('location: authentification.php');
 ?>
+<?php if($_SESSION['role']=='admin'): ?>
 <h1>Liste utilisateurs</h1> 
 <table border=2>
   <tr>
@@ -50,3 +51,4 @@
 require_once 'javascripts.php';
 
 ?>
+<?php endif; ?>

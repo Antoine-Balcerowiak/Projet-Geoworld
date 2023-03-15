@@ -12,7 +12,7 @@ if (isset($_SESSION['nom']) && isset($_SESSION['role']) && isset($_SESSION['iden
     exit(); // Add exit() to stop the execution of the script
 }
 ?>
-<?php if($_SESSION['role']=='admin' || $_SESSION['role']=='prof' ): ?>
+
     
     
 <?php if($_SESSION['role'] == 'admin'): ?>
@@ -54,4 +54,3 @@ if (isset($_GET['id'])) {
 </form>
 <?php endif; ?>
 
-<?php endif; ?>

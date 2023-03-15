@@ -1,4 +1,6 @@
-
+<?php
+session_start ();
+ if($_SESSION['role']=='admin' || $_SESSION['role']=='prof' ): ?>
 <?php
 require_once('inc/connect-db.php');
 //on récupère et on vérifie que l'id figure dans l'URL
@@ -17,5 +19,5 @@ catch ( Exception $e ) {
  die ("erreur dans la requete ".$e->getMessage());
 }
 ?>
-
+<?php endif ?>
 

@@ -44,13 +44,7 @@
     <input type="text" name="Population" required value="<?php echo $pays->Population; ?>" /> <br />
     Capitale :
     <input type="text" name="Capital" required value="<?php echo $cap[0]->Name; ?>" /> <br />
-    
-              
-    
 
-    
-
-   
     <input type="hidden" name="id" value="<?php echo $pays->id ?> ">
 
     <fieldset>
